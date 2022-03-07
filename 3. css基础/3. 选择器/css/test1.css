@@ -1,0 +1,81 @@
+/* *{
+    color: red;
+} */
+/* 选中所有具有href属性的元素 , 属性选择器*/
+/* [href]{
+    color: red;
+} */
+/* [href="https://www.lieon.online"]{
+    color: red;
+}
+[href="https://www.google.com"]{
+    color: #008c8c;
+}
+/* 推荐这种写法 */
+/* [href$= "baidu.com"]{
+    color: blueviolet;
+} */
+/* 伪类选择器 */
+ /* 鼠标选中时的a元素*/
+/* a:hover{
+    color: red;
+} */
+/* 鼠标按下时的a元素
+伪类选择器为x:hover/ y:active格式
+*/
+/* a:active{
+    color: #008c8c;
+} */
+
+/* a:link{
+    color: chocolate;
+}
+a:visited{
+    color:darkgreen;
+} */
+/* 伪元素选择器 */
+/* span::before{
+    content: "《";
+    color: red;
+}
+
+span::after{
+    content: "》";
+    color: red;
+} */
+
+/* p{
+    text-indent: 2em;
+    line-height: 2;
+}
+
+p.red{
+    color: red;
+}
+
+.red li{
+color: #0f8;
+} */
+/* 
+.abc >.bcd{
+color: red;
+} */
+
+/* div >ul li{
+    color: red;
+} */
+
+.special{
+    color: red;
+}
+
+.special + li{
+    color: #008c8c;
+}
+
+.special~li, p{
+    color: #008c8c;
+}
+/* p{
+    color: #008c8c;
+} */

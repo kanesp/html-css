@@ -1,0 +1,35 @@
+# 图片元素
+
+# image元素
+
+image缩写，空元素
+
+src属性： source
+
+alt属性： 当图片资源失效时，将使用该属性替换图片
+
+
+## 和a元素连用
+
+## 和map元素
+map：地图
+
+```html
+<img usemap="#streamingServices" src="dwsqasdfasd" alt="This is streaming services!">
+
+<map name="streamingServices">
+</map>
+```
+这里类似于锚链接，但是不是使用id方式而是使用name
+
+如何划分区域？
+map的子元素： area
+
+衡量坐标时，为了比卖你衡量误差，需要使用专业的衡量工具：
+ps, pxcook
+
+## 和figure元素
+
+指代、定义，通常用于把图片、图片标题、描述包裹起来
+
+子元素： figcaption
